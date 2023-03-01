@@ -74,3 +74,13 @@ input::placeholder{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 80px);
 }
+
+
+
+
+
+@media(max-width: 420px){
+    .calc {
+        padding-top: 50px;
+    }
+}
