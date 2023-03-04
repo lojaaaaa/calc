@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="container">
+            <div class="cals__inner">
+                <div class="calc__title">Калькулятор</div>
+                <div class="calc__out" id="result">0</div>
+                <div class="calc__buttons">
+                    <div class="calc__btn" onClick="addOperator('%')">%</div>
+                    <div class="calc__btn" onClick="addOperator('/')">/</div>
+                    <div class="calc__btn" onClick="addOperator('*')">*</div>
+                    <div class="calc__btn" onClick="addOperator('+')">+</div>
+                    <div class="calc__btn" onClick="addOperator('-')">-</div>
+                    <div class="calc__btn" onClick="clearResult()">C</div>
+                    <div class="calc__btn" onClick="addNumber(1)">1</div>
+                    <div class="calc__btn" onClick="addNumber(2)">2</div>
+                    <div class="calc__btn" onClick="addNumber(3)">3</div>
+                    <div class="calc__btn" onClick="addNumber(4)">4</div>
+                    <div class="calc__btn" onClick="addNumber(5)">5</div>
+                    <div class="calc__btn" onClick="addNumber(6)">6</div>
+                    <div class="calc__btn" onClick="addNumber(7)">7</div>
+                    <div class="calc__btn" onClick="addNumber(8)">8</div>
+                    <div class="calc__btn" onClick="addNumber(9)">9</div>
+                    <div class="calc__btn" onClick="addNumber(0)">0</div>
+                    <div class="calc__btn" onClick="addNumber('.')">.</div>
+                    <div class="calc__btn" onClick="calculate()">=</div>
+                    <div class="calc__btn" id="black">black</div>
+                    <div class="calc__btn" id="pink">pink</div>
+                    <div class="calc__btn" id="blue">blue</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
